@@ -6,8 +6,8 @@ import (
 
 	"fmt"
 
-	"github.com/codegangsta/cli"
 	_ "github.com/go-sql-driver/mysql"
+	"github.com/urfave/cli"
 )
 
 var db *sql.DB

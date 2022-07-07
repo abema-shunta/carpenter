@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/codegangsta/cli"
 	"github.com/dev-cloverlab/carpenter/cmd/carpenter/command"
+	"github.com/urfave/cli"
 )
 
 var GlobalFlags = []cli.Flag{

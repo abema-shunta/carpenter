@@ -7,9 +7,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/codegangsta/cli"
 	"github.com/dev-cloverlab/carpenter/builder"
 	"github.com/dev-cloverlab/carpenter/dialect/mysql"
+	"github.com/urfave/cli"
 )
 
 func CmdBuild(c *cli.Context) {

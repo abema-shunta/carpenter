@@ -9,9 +9,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/codegangsta/cli"
 	"github.com/dev-cloverlab/carpenter/dialect/mysql"
 	"github.com/dev-cloverlab/carpenter/exporter"
+	"github.com/urfave/cli"
 )
 
 func CmdExport(c *cli.Context) {
